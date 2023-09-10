@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0" rowspan="2" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>WSRender </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>A Workspace Analysis and Visualization Toolbox</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Analysis Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Select Robot</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="4">
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="text">
+         <string>0.02</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QRadioButton" name="radioButton">
+        <property name="text">
+         <string>Mento Carlo</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="3">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Precision</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Evaluation Indics</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="2">
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>File Dir</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" rowspan="2">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>Workspace Analysis</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0" rowspan="2">
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="text">
+         <string>Save Results</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Sample Number</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0">
+       <widget class="QComboBox" name="comboBox_4">
+        <item>
+         <property name="text">
+          <string>Manipulability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inverse Condition Number</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Minimum Singlar Value</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Order-Independent Manipulability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Harmonic Mean Manipulability Index</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Isotropic Index</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Condition Number</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Manipulability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Inverse Condition Number</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Minimum Singlar Value</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Order-Independent Manipulability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Harmonic Mean Manipulability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Isotropic Index</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dynamic Condition Number</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Workspace Volume</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Structure Length Index</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="16" column="3">
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="0" rowspan="2">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="text">
+         <string>Workspace Visualization</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="2">
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="text">
+         <string>0.0004</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>Dual-Arm Robot Analysis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Single Robot Analysis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Master-Slave Mapping</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Multi_Robots Interaction</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="13" column="1">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Visualization Mode</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" rowspan="2">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Robot Constrution</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Error</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="3">
+       <widget class="QLineEdit" name="lineEdit_5">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QComboBox" name="comboBox_3">
+        <item>
+         <property name="text">
+          <string>define</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>floor</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>table</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>frame</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Global Evaluation Results</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="1">
+       <widget class="QLineEdit" name="lineEdit_6">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="2">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Configure</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Select Environment              </string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="text">
+         <string>Couple</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Status</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" rowspan="2">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>Workspace Analysis</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="3">
+       <widget class="QScrollBar" name="horizontalScrollBar">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="3">
+       <widget class="QComboBox" name="comboBox_6">
+        <item>
+         <property name="text">
+          <string>XSlice</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>YSlice</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ZSlice</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Isovalue</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Alphavalue</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QRadioButton" name="radioButton_2">
+        <property name="text">
+         <string>Joint Limit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>Articulated</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spherical</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SCARA</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cartesian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cylinder</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Underactuated</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Redundant</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>dVRK</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Omni</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MIS</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>HamlynCRM</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Puma560</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ABB_Yumi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Defined</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="12" column="2">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="text">
+         <string>50</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QRadioButton" name="radioButton_4">
+        <property name="text">
+         <string>Iteration Method        </string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="text">
+         <string>Finished Generate Volume Data</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QComboBox" name="comboBox_5">
+        <item>
+         <property name="text">
+          <string>Scatter Data</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Volume Data</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Convhull</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>IsoSurface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Slice</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>TriSurf</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>AlphaSurface</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reachable Workspace</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="17" column="0" colspan="2">
+       <widget class="QGraphicsView" name="graphicsView"/>
+      </item>
+      <item row="17" column="2" colspan="3">
+       <widget class="QGraphicsView" name="graphicsView_2"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
